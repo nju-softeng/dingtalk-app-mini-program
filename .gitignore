@@ -1,2 +1,4 @@
 .tea
 node_modules
+*.log
+*.log
