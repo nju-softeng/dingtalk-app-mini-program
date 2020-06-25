@@ -1,5 +1,5 @@
 <view class='collapse-index {{className}}' onChildRef='saveChildRef0'>
-  <view class='{{iClass}} i-collapse' onCollapse='clickfn'>
+  <view class="{{customClass}} van-collapse {{ border ? 'van-hairline--top-bottom' : '' }}">
     <slot>
     </slot>
   </view>

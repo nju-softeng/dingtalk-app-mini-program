@@ -1,56 +1,50 @@
-const _Component = require("../../__antmove/component/componentClass.js")(
-    "Component"
-);
 my.setStorageSync({
     key: "activeComponent",
     data: {
         is: "dist/action-sheet/index"
     }
 });
-
-_Component({
-    externalClasses: ["i-class", "i-class-mask", "i-class-header"],
-    options: {
-        multipleSlots: true
-    },
-    properties: {
-        visible: {
-            type: Boolean,
-            value: false
-        },
-        maskClosable: {
-            type: Boolean,
-            value: true
-        },
-        showCancel: {
-            type: Boolean,
-            value: false
-        },
-        cancelText: {
-            type: String,
-            value: "取消"
+import { VantComponent } from "../common/component";
+import { safeArea } from "../mixins/safe-area";
+VantComponent({
+    mixins: [safeArea()],
+    props: {
+        show: Boolean,
+        title: String,
+        cancelText: String,
+        zIndex: {
+            type: Number,
+            value: 100
         },
         actions: {
             type: Array,
             value: []
+        },
+        overlay: {
+            type: Boolean,
+            value: true
+        },
+        closeOnClickOverlay: {
+            type: Boolean,
+            value: true
         }
     },
     methods: {
-        handleClickMask() {
-            if (!this.data.maskClosable) return;
-            this.handleClickCancel();
+        onSelect(event) {
+            const { index } = event.currentTarget.dataset;
+            const item = this.data.actions[index];
+
+            if (item && !item.disabled && !item.loading) {
+                this.$emit("select", item);
+            }
         },
 
-        handleClickItem({ currentTarget = {} }) {
-            const dataset = currentTarget.dataset || {};
-            const { index } = dataset;
-            this.triggerEvent("click", {
-                index
-            });
+        onCancel() {
+            this.$emit("cancel");
         },
 
-        handleClickCancel() {
-            this.triggerEvent("cancel");
+        onClose() {
+            this.$emit("close");
         }
     }
 });

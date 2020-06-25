@@ -1,39 +1,65 @@
-const _Component = require("../../__antmove/component/componentClass.js")(
-    "Component"
-);
 my.setStorageSync({
     key: "activeComponent",
     data: {
         is: "dist/collapse/index"
     }
 });
+import { VantComponent } from "../common/component";
+VantComponent({
+    relation: {
+        name: "collapse-item",
+        type: "descendant",
 
-_Component({
-    externalClasses: ["i-class"],
-    relations: {
-        "../collapse-item/index": {
-            type: "child"
+        linked(child) {
+            this.children.push(child);
+            this.updateExpanded();
+        },
+
+        unlinked(child) {
+            this.children = this.children.filter(item => item !== child);
         }
     },
-    properties: {
-        name: String,
-        accordion: Boolean
+    props: {
+        value: {
+            type: null,
+            observer: "updateExpanded"
+        },
+        accordion: {
+            type: Boolean,
+            observer: "updateExpanded"
+        },
+        border: {
+            type: Boolean,
+            value: true
+        }
     },
+
+    beforeCreate() {
+        this.children = [];
+    },
+
     methods: {
-        clickfn(e) {
-            const params = e.detail;
-            const allList = this.getRelationNodes("../collapse-item/index");
-            allList.forEach(item => {
-                if (params.name === item.data.name) {
-                    item.setData({
-                        showContent: "i-collapse-item-show-content"
-                    });
-                } else {
-                    item.setData({
-                        showContent: ""
-                    });
-                }
-            });
+        updateExpanded() {
+            if (this["children"]) {
+                this.children.forEach(child => {
+                    child.updateExpanded();
+                });
+            }
+        },
+
+        switch(name, expanded) {
+            const { accordion, value } = this.data;
+
+            if (!accordion) {
+                name = expanded
+                    ? (value || []).concat(name)
+                    : (value || []).filter(activeName => activeName !== name);
+            } else {
+                name = expanded ? name : "";
+            }
+
+            this.$emit("change", name);
+            this.$emit("input", name);
         }
     }
 });

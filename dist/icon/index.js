@@ -1,31 +1,29 @@
-const _Component = require("../../__antmove/component/componentClass.js")(
-    "Component"
-);
 my.setStorageSync({
     key: "activeComponent",
     data: {
         is: "dist/icon/index"
     }
 });
+import { VantComponent } from "../common/component";
+VantComponent({
+    props: {
+        info: null,
+        name: String,
+        size: String,
+        color: String,
+        customStyle: String,
+        classPrefix: {
+            type: String,
+            value: "van-icon"
+        }
+    },
+    methods: {
+        onClick() {
+            this.$emit("tap");
 
-_Component({
-    externalClasses: ["i-class"],
-    properties: {
-        type: {
-            type: String,
-            value: ""
-        },
-        custom: {
-            type: String,
-            value: ""
-        },
-        size: {
-            type: Number,
-            value: 14
-        },
-        color: {
-            type: String,
-            value: ""
+            if (this.props && this.props.onTouchstart) {
+                this.props.onTouchstart();
+            }
         }
     }
 });

@@ -1,1 +1,1 @@
-{ "component": true, "usingComponents": { "i-cell": "../cell/index" } }
+{ "component": true, "usingComponents": { "van-icon": "../icon/index" } }

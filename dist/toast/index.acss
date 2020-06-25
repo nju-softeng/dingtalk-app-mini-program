@@ -1,58 +1,64 @@
-.toast-index .i-toast {
-    position: fixed;
-    top: 35%;
-    left: 50%;
-    transform: translate3d(-50%, -50%, 0);
-    background: rgba(0, 0, 0, 0.7);
+@import "../common/index.acss";
+
+.toast-index .van-toast {
+    display: -webkit-flex;
+    display: flex;
     color: #fff;
     font-size: 14px;
-    line-height: 1.5em;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 10px 18px;
-    text-align: center;
+    line-height: 20px;
     border-radius: 4px;
-    z-index: 1010;
+    word-break: break-all;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    box-sizing: initial;
+    background-color: rgba(51, 51, 51, 0.88);
+    white-space: pre-wrap;
 }
 
-.toast-index .i-toast-mask {
+.toast-index .van-toast__container {
     position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1010;
+    top: 50%;
+    left: 50%;
+    max-width: 70%;
+    width: -webkit-fit-content;
+    width: fit-content;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-.toast-index .i-toast-icon {
-    font-size: 38px !important;
-    margin-bottom: 6px;
+.toast-index .van-toast--text {
+    padding: 8px 12px;
+    min-width: 96px;
 }
 
-.toast-index .i-toast-image {
-    max-width: 100px;
-    max-height: 100px;
+.toast-index .van-toast--icon {
+    width: 90px;
+    padding: 15px;
+    min-height: 90px;
 }
 
-.toast-index .i-toast-loading {
-    display: inline-block;
-    vertical-align: middle;
-    width: 28px;
-    height: 28px;
-    background: 0 0;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    border-color: #fff #fff #fff #2d8cf0;
-    animation: btn-spin 0.8s linear;
-    animation-iteration-count: infinite;
+.toast-index .van-toast--icon .van-toast__icon {
+    font-size: 48px;
 }
 
-@keyframes btn-spin {
-    0% {
-        transform: rotate(0);
-    }
+.toast-index .van-toast--icon .van-toast__text {
+    padding-top: 5px;
+}
 
-    100% {
-        transform: rotate(360deg);
-    }
+.toast-index .van-toast__loading {
+    margin: 10px 0;
+}
+
+.toast-index .van-toast--top {
+    -webkit-transform: translateY(-30vh);
+    transform: translateY(-30vh);
+}
+
+.toast-index .van-toast--bottom {
+    -webkit-transform: translateY(30vh);
+    transform: translateY(30vh);
 }

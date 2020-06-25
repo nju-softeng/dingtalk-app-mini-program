@@ -1,5 +1,10 @@
 module.exports = {
-'dist/action-sheet/index': 
+'components/demo-block/index': 
+    {
+        id: 'saveChildRef0',
+        children: []
+    }
+    ,'custom-tab-bar/index': 
     {
         id: 'saveChildRef0',
         children: [
@@ -12,22 +17,15 @@ module.exports = {
     }
     ]
     }
-    ,
-    {
-        id: 'saveChildRef3',
-        children: []
-    }
     ]
     }
-    ,'dist/alert/index': 
+    ,'dist/action-sheet/index': 
     {
         id: 'saveChildRef0',
         children: [
     {
         id: 'saveChildRef1',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef2',
         children: []
@@ -37,24 +35,31 @@ module.exports = {
         id: 'saveChildRef3',
         children: []
     }
-    ,
-    {
-        id: 'saveChildRef4',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef5',
-        children: []
+    ]
     }
     ]
     }
-    ,'dist/avatar/index': 
+    ,'dist/area/index': 
     {
         id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
         children: []
+    }
+    ]
     }
     ,'dist/badge/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: []
+    }
+    ]
+    }
+    ,'dist/badge-group/index': 
     {
         id: 'saveChildRef0',
         children: []
@@ -62,17 +67,42 @@ module.exports = {
     ,'dist/button/index': 
     {
         id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
         children: []
+    }
+    ,
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
+    ]
     }
     ,'dist/card/index': 
     {
         id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
         children: []
+    }
+    ]
     }
     ,'dist/cell/index': 
     {
         id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
         children: []
+    }
+    ,
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
+    ]
     }
     ,'dist/cell-group/index': 
     {
@@ -92,12 +122,7 @@ module.exports = {
     ,'dist/checkbox-group/index': 
     {
         id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
         children: []
-    }
-    ]
     }
     ,'dist/col/index': 
     {
@@ -119,77 +144,72 @@ module.exports = {
     }
     ]
     }
-    ,'dist/count-down/index': 
+    ,'dist/datetime-picker/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: []
+    }
+    ]
+    }
+    ,'dist/dialog/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef3',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,'dist/field/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef3',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,'dist/goods-action/index': 
     {
         id: 'saveChildRef0',
         children: []
     }
-    ,'dist/divider/index': 
+    ,'dist/goods-action-button/index': 
     {
         id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/drawer/index': 
+        children: [
     {
-        id: 'saveChildRef0',
+        id: 'saveChildRef1',
         children: []
     }
-    ,'dist/grid/index': 
-    {
-        id: 'saveChildRef0',
-        children: []
+    ]
     }
-    ,'dist/grid-icon/index': 
-    {
-        id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/grid-item/index': 
-    {
-        id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/grid-label/index': 
-    {
-        id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/icon/index': 
-    {
-        id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/index/index': 
-    {
-        id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/index-item/index': 
-    {
-        id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/input/index': 
-    {
-        id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/input-number/index': 
-    {
-        id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/load-more/index': 
-    {
-        id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/message/index': 
-    {
-        id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/modal/index': 
+    ,'dist/goods-action-icon/index': 
     {
         id: 'saveChildRef0',
         children: [
@@ -202,40 +222,35 @@ module.exports = {
     }
     ]
     }
-    ,
+    ]
+    }
+    ,'dist/icon/index': 
     {
-        id: 'saveChildRef3',
+        id: 'saveChildRef0',
         children: [
     {
-        id: 'saveChildRef4',
-        children: [
-    {
-        id: 'saveChildRef5',
+        id: 'saveChildRef1',
         children: []
     }
     ]
     }
-    ,
+    ,'dist/info/index': 
     {
-        id: 'saveChildRef6',
-        children: [
-    {
-        id: 'saveChildRef7',
+        id: 'saveChildRef0',
         children: []
     }
-    ]
-    }
-    ]
-    }
-    ,
+    ,'dist/loading/index': 
     {
-        id: 'saveChildRef8',
-        children: [
-    {
-        id: 'saveChildRef9',
+        id: 'saveChildRef0',
         children: []
     }
-    ]
+    ,'dist/nav-bar/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: []
     }
     ]
     }
@@ -252,9 +267,44 @@ module.exports = {
         id: 'saveChildRef2',
         children: []
     }
+    ,
+    {
+        id: 'saveChildRef3',
+        children: []
+    }
     ]
     }
-    ,'dist/page/index': 
+    ,'dist/notify/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: []
+    }
+    ]
+    }
+    ,'dist/overlay/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: []
+    }
+    ]
+    }
+    ,'dist/panel/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: []
+    }
+    ]
+    }
+    ,'dist/picker/index': 
     {
         id: 'saveChildRef0',
         children: [
@@ -269,10 +319,20 @@ module.exports = {
     }
     ]
     }
-    ,'dist/panel/index': 
+    ,'dist/picker-column/index': 
     {
         id: 'saveChildRef0',
         children: []
+    }
+    ,'dist/popup/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: []
+    }
+    ]
     }
     ,'dist/progress/index': 
     {
@@ -292,12 +352,7 @@ module.exports = {
     ,'dist/radio-group/index': 
     {
         id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
         children: []
-    }
-    ]
     }
     ,'dist/rate/index': 
     {
@@ -307,6 +362,11 @@ module.exports = {
         id: 'saveChildRef1',
         children: []
     }
+    ,
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
     ]
     }
     ,'dist/row/index': 
@@ -314,17 +374,7 @@ module.exports = {
         id: 'saveChildRef0',
         children: []
     }
-    ,'dist/slide/index': 
-    {
-        id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/spin/index': 
-    {
-        id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/step/index': 
+    ,'dist/search/index': 
     {
         id: 'saveChildRef0',
         children: [
@@ -333,23 +383,28 @@ module.exports = {
         children: []
     }
     ]
+    }
+    ,'dist/slider/index': 
+    {
+        id: 'saveChildRef0',
+        children: []
+    }
+    ,'dist/stepper/index': 
+    {
+        id: 'saveChildRef0',
+        children: []
     }
     ,'dist/steps/index': 
     {
         id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/sticky/index': 
+        children: [
     {
-        id: 'saveChildRef0',
+        id: 'saveChildRef1',
         children: []
     }
-    ,'dist/sticky-item/index': 
-    {
-        id: 'saveChildRef0',
-        children: []
+    ]
     }
-    ,'dist/swipeout/index': 
+    ,'dist/submit-bar/index': 
     {
         id: 'saveChildRef0',
         children: [
@@ -357,16 +412,21 @@ module.exports = {
         id: 'saveChildRef1',
         children: []
     }
+    ,
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
     ]
+    }
+    ,'dist/swipe-cell/index': 
+    {
+        id: 'saveChildRef0',
+        children: []
     }
     ,'dist/switch/index': 
     {
         id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/tab/index': 
-    {
-        id: 'saveChildRef0',
         children: [
     {
         id: 'saveChildRef1',
@@ -374,12 +434,7 @@ module.exports = {
     }
     ]
     }
-    ,'dist/tab-bar/index': 
-    {
-        id: 'saveChildRef0',
-        children: []
-    }
-    ,'dist/tab-bar-item/index': 
+    ,'dist/switch-cell/index': 
     {
         id: 'saveChildRef0',
         children: [
@@ -394,10 +449,40 @@ module.exports = {
     }
     ]
     }
-    ,'dist/tabs/index': 
+    ,'dist/tab/index': 
     {
         id: 'saveChildRef0',
         children: []
+    }
+    ,'dist/tabbar/index': 
+    {
+        id: 'saveChildRef0',
+        children: []
+    }
+    ,'dist/tabbar-item/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
+    ]
+    }
+    ,'dist/tabs/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: []
+    }
+    ]
     }
     ,'dist/tag/index': 
     {
@@ -415,9 +500,7 @@ module.exports = {
     ,
     {
         id: 'saveChildRef2',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef3',
         children: []
@@ -428,6 +511,18 @@ module.exports = {
         children: []
     }
     ]
+    }
+    ]
+    }
+    ,'dist/transition/index': 
+    {
+        id: 'saveChildRef0',
+        children: []
+    }
+    ,'dist/tree-select/index': 
+    {
+        id: 'saveChildRef0',
+        children: []
     }
     ,'pages/action-sheet/index': 
     {
@@ -435,14 +530,100 @@ module.exports = {
         children: [
     {
         id: 'saveChildRef1',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef2',
         children: []
     }
     ,
+    {
+        id: 'saveChildRef3',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef4',
+        children: [
+    {
+        id: 'saveChildRef5',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef6',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef7',
+        children: [
+    {
+        id: 'saveChildRef8',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef9',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,'pages/area/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef3',
+        children: [
+    {
+        id: 'saveChildRef4',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef5',
+        children: [
+    {
+        id: 'saveChildRef6',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef7',
+        children: []
+    }
+    ]
+    }
+    ,'pages/badge/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: [
     {
         id: 'saveChildRef3',
         children: []
@@ -457,17 +638,24 @@ module.exports = {
         id: 'saveChildRef5',
         children: []
     }
+    ,
+    {
+        id: 'saveChildRef6',
+        children: []
+    }
     ]
     }
-    ,'pages/alert/index': 
+    ]
+    }
+    ]
+    }
+    ,'pages/button/index': 
     {
         id: 'saveChildRef0',
         children: [
     {
         id: 'saveChildRef1',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef2',
         children: []
@@ -492,97 +680,6 @@ module.exports = {
         id: 'saveChildRef6',
         children: []
     }
-    ,
-    {
-        id: 'saveChildRef7',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef8',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef9',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef10',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef11',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef12',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef13',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef14',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef15',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef16',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef17',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef18',
-        children: []
-    }
-    ]
-    }
-    ,'pages/avatar/index': 
-    {
-        id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef2',
-        children: [
-    {
-        id: 'saveChildRef3',
-        children: [
-    {
-        id: 'saveChildRef4',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef5',
-        children: [
-    {
-        id: 'saveChildRef6',
-        children: []
-    }
     ]
     }
     ,
@@ -593,14 +690,12 @@ module.exports = {
         id: 'saveChildRef8',
         children: []
     }
-    ]
-    }
-    ]
-    }
     ,
     {
         id: 'saveChildRef9',
         children: []
+    }
+    ]
     }
     ,
     {
@@ -608,7 +703,9 @@ module.exports = {
         children: [
     {
         id: 'saveChildRef11',
-        children: [
+        children: []
+    }
+    ,
     {
         id: 'saveChildRef12',
         children: []
@@ -623,34 +720,230 @@ module.exports = {
         id: 'saveChildRef14',
         children: []
     }
-    ]
-    }
     ,
     {
         id: 'saveChildRef15',
-        children: [
-    {
-        id: 'saveChildRef16',
         children: []
-    }
-    ]
     }
     ]
     }
     ,
     {
-        id: 'saveChildRef17',
+        id: 'saveChildRef16',
         children: [
+    {
+        id: 'saveChildRef17',
+        children: []
+    }
+    ,
     {
         id: 'saveChildRef18',
         children: []
+    }
+    ]
     }
     ,
     {
         id: 'saveChildRef19',
+        children: [
+    {
+        id: 'saveChildRef20',
         children: []
     }
     ,
+    {
+        id: 'saveChildRef21',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef22',
+        children: [
+    {
+        id: 'saveChildRef23',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef24',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef25',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef26',
+        children: [
+    {
+        id: 'saveChildRef27',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef28',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef29',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef30',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,'pages/card/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef3',
+        children: [
+    {
+        id: 'saveChildRef4',
+        children: [
+    {
+        id: 'saveChildRef5',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef6',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef7',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef8',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,'pages/cell/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: [
+    {
+        id: 'saveChildRef3',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef4',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef5',
+        children: [
+    {
+        id: 'saveChildRef6',
+        children: [
+    {
+        id: 'saveChildRef7',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef8',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef9',
+        children: [
+    {
+        id: 'saveChildRef10',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef11',
+        children: [
+    {
+        id: 'saveChildRef12',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef13',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef14',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef15',
+        children: [
+    {
+        id: 'saveChildRef16',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef17',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef18',
+        children: [
+    {
+        id: 'saveChildRef19',
+        children: [
     {
         id: 'saveChildRef20',
         children: []
@@ -660,30 +953,32 @@ module.exports = {
     ,
     {
         id: 'saveChildRef21',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef22',
-        children: [
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
     {
         id: 'saveChildRef23',
         children: [
     {
         id: 'saveChildRef24',
+        children: [
+    {
+        id: 'saveChildRef25',
         children: []
     }
     ]
     }
     ,
     {
-        id: 'saveChildRef25',
-        children: [
-    {
         id: 'saveChildRef26',
         children: []
-    }
-    ]
     }
     ,
     {
@@ -696,206 +991,6 @@ module.exports = {
     ]
     }
     ]
-    }
-    ,
-    {
-        id: 'saveChildRef29',
-        children: [
-    {
-        id: 'saveChildRef30',
-        children: [
-    {
-        id: 'saveChildRef31',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef32',
-        children: [
-    {
-        id: 'saveChildRef33',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef34',
-        children: [
-    {
-        id: 'saveChildRef35',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ]
-    }
-    ,'pages/badge/index': 
-    {
-        id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef2',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef3',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef4',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef5',
-        children: []
-    }
-    ]
-    }
-    ,'pages/button/index': 
-    {
-        id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef2',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef3',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef4',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef5',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef6',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef7',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef8',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef9',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef10',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef11',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef12',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef13',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef14',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef15',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef16',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef17',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef18',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef19',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef20',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef21',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef22',
-        children: []
-    }
-    ]
-    }
-    ,'pages/card/index': 
-    {
-        id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef2',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef3',
-        children: []
     }
     ]
     }
@@ -908,14 +1003,115 @@ module.exports = {
         children: [
     {
         id: 'saveChildRef2',
-        children: [
+        children: []
+    }
+    ]
+    }
+    ,
     {
         id: 'saveChildRef3',
+        children: [
+    {
+        id: 'saveChildRef4',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef5',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef6',
+        children: [
+    {
+        id: 'saveChildRef7',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef8',
+        children: [
+    {
+        id: 'saveChildRef9',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef10',
+        children: [
+    {
+        id: 'saveChildRef11',
+        children: [
+    {
+        id: 'saveChildRef12',
         children: []
     }
     ]
     }
     ]
+    }
+    ,
+    {
+        id: 'saveChildRef13',
+        children: [
+    {
+        id: 'saveChildRef14',
+        children: [
+    {
+        id: 'saveChildRef15',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef16',
+        children: [
+    {
+        id: 'saveChildRef17',
+        children: [
+    {
+        id: 'saveChildRef18',
+        children: [
+    {
+        id: 'saveChildRef19',
+        children: [
+    {
+        id: 'saveChildRef20',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,'pages/col/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: [
+    {
+        id: 'saveChildRef3',
+        children: []
     }
     ,
     {
@@ -925,17 +1121,61 @@ module.exports = {
     ,
     {
         id: 'saveChildRef5',
-        children: [
-    {
-        id: 'saveChildRef6',
         children: []
     }
     ]
     }
     ,
     {
+        id: 'saveChildRef6',
+        children: [
+    {
         id: 'saveChildRef7',
         children: []
+    }
+    ,
+    {
+        id: 'saveChildRef8',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef9',
+        children: [
+    {
+        id: 'saveChildRef10',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef11',
+        children: [
+    {
+        id: 'saveChildRef12',
+        children: [
+    {
+        id: 'saveChildRef13',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef14',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef15',
+        children: []
+    }
+    ]
+    }
+    ]
     }
     ]
     }
@@ -948,9 +1188,7 @@ module.exports = {
         children: [
     {
         id: 'saveChildRef2',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef3',
         children: []
@@ -960,92 +1198,25 @@ module.exports = {
         id: 'saveChildRef4',
         children: []
     }
-    ]
-    }
     ,
     {
         id: 'saveChildRef5',
-        children: [
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
     {
         id: 'saveChildRef6',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef7',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef8',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef9',
         children: [
-    {
-        id: 'saveChildRef10',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef11',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef12',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ,'pages/color/index': 
-    {
-        id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef2',
-        children: [
-    {
-        id: 'saveChildRef3',
-        children: [
-    {
-        id: 'saveChildRef4',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef5',
-        children: [
-    {
-        id: 'saveChildRef6',
-        children: []
-    }
-    ]
-    }
-    ,
     {
         id: 'saveChildRef7',
         children: [
     {
         id: 'saveChildRef8',
         children: []
-    }
-    ]
-    }
-    ]
     }
     ,
     {
@@ -1055,17 +1226,19 @@ module.exports = {
     ,
     {
         id: 'saveChildRef10',
-        children: [
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
     {
         id: 'saveChildRef11',
         children: [
     {
         id: 'saveChildRef12',
-        children: []
-    }
-    ]
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef13',
         children: [
@@ -1078,89 +1251,6 @@ module.exports = {
     ,
     {
         id: 'saveChildRef15',
-        children: [
-    {
-        id: 'saveChildRef16',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef17',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef18',
-        children: [
-    {
-        id: 'saveChildRef19',
-        children: [
-    {
-        id: 'saveChildRef20',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef21',
-        children: [
-    {
-        id: 'saveChildRef22',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef23',
-        children: [
-    {
-        id: 'saveChildRef24',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef25',
-        children: [
-    {
-        id: 'saveChildRef26',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef27',
-        children: [
-    {
-        id: 'saveChildRef28',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef29',
-        children: [
-    {
-        id: 'saveChildRef30',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef31',
-        children: [
-    {
-        id: 'saveChildRef32',
         children: []
     }
     ]
@@ -1169,20 +1259,16 @@ module.exports = {
     }
     ]
     }
-    ,'pages/count-down/index': 
+    ,'pages/dashboard/index': 
     {
         id: 'saveChildRef0',
         children: [
     {
         id: 'saveChildRef1',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef2',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef3',
         children: []
@@ -1192,67 +1278,69 @@ module.exports = {
         id: 'saveChildRef4',
         children: []
     }
-    ,
-    {
-        id: 'saveChildRef5',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef6',
-        children: []
+    ]
     }
     ]
     }
-    ,'pages/divider/index': 
+    ]
+    }
+    ,'pages/datetime-picker/index': 
     {
         id: 'saveChildRef0',
         children: [
     {
         id: 'saveChildRef1',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef2',
         children: []
     }
+    ]
+    }
     ,
     {
         id: 'saveChildRef3',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef4',
         children: []
     }
-    ,
-    {
-        id: 'saveChildRef5',
-        children: []
+    ]
     }
     ,
     {
+        id: 'saveChildRef5',
+        children: [
+    {
         id: 'saveChildRef6',
         children: []
+    }
+    ]
     }
     ,
     {
         id: 'saveChildRef7',
+        children: [
+    {
+        id: 'saveChildRef8',
         children: []
     }
     ]
     }
-    ,'pages/drawer/index': 
+    ,
+    {
+        id: 'saveChildRef9',
+        children: []
+    }
+    ]
+    }
+    ,'pages/dialog/index': 
     {
         id: 'saveChildRef0',
         children: [
     {
         id: 'saveChildRef1',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef2',
         children: []
@@ -1262,15 +1350,17 @@ module.exports = {
         id: 'saveChildRef3',
         children: []
     }
-    ,
-    {
-        id: 'saveChildRef4',
-        children: []
+    ]
     }
     ,
     {
+        id: 'saveChildRef4',
+        children: [
+    {
         id: 'saveChildRef5',
         children: []
+    }
+    ]
     }
     ,
     {
@@ -1285,21 +1375,26 @@ module.exports = {
     ,
     {
         id: 'saveChildRef8',
+        children: [
+    {
+        id: 'saveChildRef9',
         children: []
     }
     ,
-    {
-        id: 'saveChildRef9',
-        children: [
     {
         id: 'saveChildRef10',
         children: []
     }
     ]
     }
+    ,
+    {
+        id: 'saveChildRef11',
+        children: []
+    }
     ]
     }
-    ,'pages/grid/index': 
+    ,'pages/field/index': 
     {
         id: 'saveChildRef0',
         children: [
@@ -1311,35 +1406,39 @@ module.exports = {
         children: [
     {
         id: 'saveChildRef3',
-        children: [
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
     {
         id: 'saveChildRef4',
         children: [
     {
         id: 'saveChildRef5',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef6',
         children: []
     }
+    ,
+    {
+        id: 'saveChildRef7',
+        children: []
+    }
     ]
     }
     ]
     }
     ,
-    {
-        id: 'saveChildRef7',
-        children: [
     {
         id: 'saveChildRef8',
         children: [
     {
         id: 'saveChildRef9',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef10',
         children: []
@@ -1368,8 +1467,6 @@ module.exports = {
     }
     ]
     }
-    ]
-    }
     ,
     {
         id: 'saveChildRef15',
@@ -1379,54 +1476,24 @@ module.exports = {
         children: [
     {
         id: 'saveChildRef17',
-        children: [
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
     {
         id: 'saveChildRef18',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef19',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef20',
         children: [
     {
         id: 'saveChildRef21',
-        children: [
-    {
-        id: 'saveChildRef22',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef23',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef24',
-        children: [
-    {
-        id: 'saveChildRef25',
-        children: [
-    {
-        id: 'saveChildRef26',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef27',
         children: []
     }
     ]
@@ -1435,23 +1502,35 @@ module.exports = {
     }
     ]
     }
-    ,
+    ]
+    }
+    ,'pages/goods-action/index': 
     {
-        id: 'saveChildRef28',
+        id: 'saveChildRef0',
         children: [
     {
-        id: 'saveChildRef29',
+        id: 'saveChildRef1',
         children: [
     {
-        id: 'saveChildRef30',
+        id: 'saveChildRef2',
         children: [
     {
-        id: 'saveChildRef31',
+        id: 'saveChildRef3',
         children: []
     }
     ,
     {
-        id: 'saveChildRef32',
+        id: 'saveChildRef4',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef5',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef6',
         children: []
     }
     ]
@@ -1460,18 +1539,33 @@ module.exports = {
     }
     ,
     {
-        id: 'saveChildRef33',
+        id: 'saveChildRef7',
         children: [
     {
-        id: 'saveChildRef34',
+        id: 'saveChildRef8',
         children: [
     {
-        id: 'saveChildRef35',
+        id: 'saveChildRef9',
         children: []
     }
     ,
     {
-        id: 'saveChildRef36',
+        id: 'saveChildRef10',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef11',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef12',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef13',
         children: []
     }
     ]
@@ -1480,27 +1574,8 @@ module.exports = {
     }
     ,
     {
-        id: 'saveChildRef37',
-        children: [
-    {
-        id: 'saveChildRef38',
-        children: [
-    {
-        id: 'saveChildRef39',
+        id: 'saveChildRef14',
         children: []
-    }
-    ,
-    {
-        id: 'saveChildRef40',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ]
-    }
-    ]
     }
     ]
     }
@@ -1513,42 +1588,25 @@ module.exports = {
         children: [
     {
         id: 'saveChildRef2',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ,'pages/index/index': 
-    {
-        id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
-        children: [
-    {
-        id: 'saveChildRef2',
         children: [
     {
         id: 'saveChildRef3',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef4',
         children: []
     }
+    ]
+    }
+    ]
+    }
     ,
     {
         id: 'saveChildRef5',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef6',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef7',
         children: []
@@ -1568,200 +1626,7 @@ module.exports = {
         id: 'saveChildRef10',
         children: []
     }
-    ,
-    {
-        id: 'saveChildRef11',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef12',
-        children: []
-    }
     ]
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef13',
-        children: [
-    {
-        id: 'saveChildRef14',
-        children: [
-    {
-        id: 'saveChildRef15',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef16',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef17',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef18',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef19',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef20',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef21',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef22',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef23',
-        children: [
-    {
-        id: 'saveChildRef24',
-        children: [
-    {
-        id: 'saveChildRef25',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef26',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef27',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef28',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef29',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef30',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef31',
-        children: [
-    {
-        id: 'saveChildRef32',
-        children: [
-    {
-        id: 'saveChildRef33',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef34',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef35',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef36',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef37',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef38',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef39',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef40',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef41',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef42',
-        children: [
-    {
-        id: 'saveChildRef43',
-        children: [
-    {
-        id: 'saveChildRef44',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef45',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef46',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef47',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef48',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef49',
-        children: []
     }
     ]
     }
@@ -1769,22 +1634,7 @@ module.exports = {
     }
     ]
     }
-    ,'pages/index-list/index': 
-    {
-        id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
-        children: [
-    {
-        id: 'saveChildRef2',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ,'pages/input/index': 
+    ,'pages/loading/index': 
     {
         id: 'saveChildRef0',
         children: [
@@ -1796,86 +1646,6 @@ module.exports = {
         children: []
     }
     ,
-    {
-        id: 'saveChildRef3',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef4',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef5',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef6',
-        children: [
-    {
-        id: 'saveChildRef7',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef8',
-        children: [
-    {
-        id: 'saveChildRef9',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef10',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ,'pages/input-number/index': 
-    {
-        id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
-        children: [
-    {
-        id: 'saveChildRef2',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef3',
-        children: [
-    {
-        id: 'saveChildRef4',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ,'pages/layout/index': 
-    {
-        id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef2',
-        children: [
     {
         id: 'saveChildRef3',
         children: []
@@ -1897,114 +1667,9 @@ module.exports = {
     }
     ]
     }
-    ,
-    {
-        id: 'saveChildRef7',
-        children: [
-    {
-        id: 'saveChildRef8',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef9',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef10',
-        children: []
-    }
     ]
     }
-    ,
-    {
-        id: 'saveChildRef11',
-        children: [
-    {
-        id: 'saveChildRef12',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef13',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef14',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef15',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef16',
-        children: [
-    {
-        id: 'saveChildRef17',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef18',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef19',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef20',
-        children: [
-    {
-        id: 'saveChildRef21',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef22',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef23',
-        children: [
-    {
-        id: 'saveChildRef24',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef25',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef26',
-        children: [
-    {
-        id: 'saveChildRef27',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ,'pages/list/index': 
+    ,'pages/nav-bar/index': 
     {
         id: 'saveChildRef0',
         children: [
@@ -2023,234 +1688,14 @@ module.exports = {
         children: [
     {
         id: 'saveChildRef4',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef5',
         children: [
-    {
-        id: 'saveChildRef6',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef7',
-        children: [
-    {
-        id: 'saveChildRef8',
-        children: [
-    {
-        id: 'saveChildRef9',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef10',
-        children: [
-    {
-        id: 'saveChildRef11',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef12',
-        children: [
-    {
-        id: 'saveChildRef13',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef14',
-        children: [
-    {
-        id: 'saveChildRef15',
-        children: [
-    {
-        id: 'saveChildRef16',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef17',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef18',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef19',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef20',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef21',
-        children: [
-    {
-        id: 'saveChildRef22',
-        children: [
-    {
-        id: 'saveChildRef23',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef24',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ]
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef25',
-        children: [
-    {
-        id: 'saveChildRef26',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ,'pages/load-more/index': 
-    {
-        id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef2',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef3',
-        children: []
-    }
-    ]
-    }
-    ,'pages/message/index': 
-    {
-        id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef2',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef3',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef4',
-        children: []
-    }
-    ,
     {
         id: 'saveChildRef5',
         children: []
     }
-    ,
-    {
-        id: 'saveChildRef6',
-        children: []
-    }
     ]
     }
-    ,'pages/modal/index': 
-    {
-        id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef2',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef3',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef4',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef5',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef6',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef7',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef8',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef9',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef10',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef11',
-        children: []
+    ]
     }
     ]
     }
@@ -2275,46 +1720,36 @@ module.exports = {
         id: 'saveChildRef4',
         children: []
     }
-    ]
-    }
     ,
     {
         id: 'saveChildRef5',
-        children: [
+        children: []
+    }
+    ]
+    }
+    ,
     {
         id: 'saveChildRef6',
-        children: []
-    }
-    ]
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef7',
-        children: [
+        children: []
+    }
+    ]
+    }
+    ,
     {
         id: 'saveChildRef8',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef9',
         children: [
     {
-        id: 'saveChildRef10',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef11',
+        id: 'saveChildRef9',
         children: []
     }
     ]
     }
     ]
     }
-    ,'pages/page/index': 
+    ,'pages/notify/index': 
     {
         id: 'saveChildRef0',
         children: [
@@ -2325,12 +1760,12 @@ module.exports = {
     ,
     {
         id: 'saveChildRef2',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef3',
         children: []
+    }
+    ]
     }
     ,
     {
@@ -2340,41 +1775,16 @@ module.exports = {
         id: 'saveChildRef5',
         children: []
     }
+    ]
+    }
     ,
     {
         id: 'saveChildRef6',
         children: []
     }
-    ]
-    }
     ,
     {
         id: 'saveChildRef7',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef8',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef9',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef10',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef11',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef12',
         children: []
     }
     ]
@@ -2385,21 +1795,106 @@ module.exports = {
         children: [
     {
         id: 'saveChildRef1',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef2',
         children: []
     }
+    ]
+    }
     ,
     {
         id: 'saveChildRef3',
+        children: [
+    {
+        id: 'saveChildRef4',
+        children: [
+    {
+        id: 'saveChildRef5',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef6',
         children: []
     }
     ]
     }
-    ,'pages/progress/index': 
+    ]
+    }
+    ]
+    }
+    ,'pages/picker/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef3',
+        children: [
+    {
+        id: 'saveChildRef4',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef5',
+        children: [
+    {
+        id: 'saveChildRef6',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef7',
+        children: [
+    {
+        id: 'saveChildRef8',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef9',
+        children: [
+    {
+        id: 'saveChildRef10',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef11',
+        children: [
+    {
+        id: 'saveChildRef12',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef13',
+        children: []
+    }
+    ]
+    }
+    ,'pages/popup/index': 
     {
         id: 'saveChildRef0',
         children: [
@@ -2410,9 +1905,7 @@ module.exports = {
     ,
     {
         id: 'saveChildRef2',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef3',
         children: []
@@ -2422,12 +1915,12 @@ module.exports = {
         id: 'saveChildRef4',
         children: []
     }
+    ]
+    }
     ,
     {
         id: 'saveChildRef5',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef6',
         children: []
@@ -2441,6 +1934,88 @@ module.exports = {
     {
         id: 'saveChildRef8',
         children: []
+    }
+    ,
+    {
+        id: 'saveChildRef9',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef10',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef11',
+        children: [
+    {
+        id: 'saveChildRef12',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef13',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef14',
+        children: [
+    {
+        id: 'saveChildRef15',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,'pages/progress/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef3',
+        children: [
+    {
+        id: 'saveChildRef4',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef5',
+        children: [
+    {
+        id: 'saveChildRef6',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef7',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef8',
+        children: []
+    }
+    ]
     }
     ]
     }
@@ -2458,120 +2033,12 @@ module.exports = {
         id: 'saveChildRef3',
         children: []
     }
-    ]
-    }
-    ]
-    }
     ,
     {
         id: 'saveChildRef4',
         children: []
     }
-    ,
-    {
-        id: 'saveChildRef5',
-        children: [
-    {
-        id: 'saveChildRef6',
-        children: []
-    }
     ]
-    }
-    ,
-    {
-        id: 'saveChildRef7',
-        children: []
-    }
-    ]
-    }
-    ,'pages/rate/index': 
-    {
-        id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
-        children: [
-    {
-        id: 'saveChildRef2',
-        children: [
-    {
-        id: 'saveChildRef3',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef4',
-        children: [
-    {
-        id: 'saveChildRef5',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef6',
-        children: [
-    {
-        id: 'saveChildRef7',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef8',
-        children: [
-    {
-        id: 'saveChildRef9',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef10',
-        children: [
-    {
-        id: 'saveChildRef11',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef12',
-        children: [
-    {
-        id: 'saveChildRef13',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ]
-    }
-    ,'pages/spin/index': 
-    {
-        id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef2',
-        children: [
-    {
-        id: 'saveChildRef3',
-        children: [
-    {
-        id: 'saveChildRef4',
-        children: []
     }
     ]
     }
@@ -2581,14 +2048,12 @@ module.exports = {
         children: [
     {
         id: 'saveChildRef6',
-        children: []
-    }
-    ]
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef7',
-        children: [
+        children: []
+    }
+    ,
     {
         id: 'saveChildRef8',
         children: []
@@ -2600,32 +2065,30 @@ module.exports = {
     ,
     {
         id: 'saveChildRef9',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef10',
         children: []
     }
-    ,
-    {
-        id: 'saveChildRef11',
-        children: []
+    ]
     }
     ,
     {
-        id: 'saveChildRef12',
+        id: 'saveChildRef11',
         children: [
+    {
+        id: 'saveChildRef12',
+        children: []
+    }
+    ]
+    }
+    ,
     {
         id: 'saveChildRef13',
         children: [
     {
         id: 'saveChildRef14',
-        children: []
-    }
-    ]
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef15',
         children: [
@@ -2640,31 +2103,233 @@ module.exports = {
     }
     ]
     }
-    ,
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,'pages/rate/index': 
     {
-        id: 'saveChildRef18',
+        id: 'saveChildRef0',
         children: [
     {
-        id: 'saveChildRef19',
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef3',
+        children: [
+    {
+        id: 'saveChildRef4',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef5',
+        children: [
+    {
+        id: 'saveChildRef6',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef7',
+        children: [
+    {
+        id: 'saveChildRef8',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef9',
+        children: [
+    {
+        id: 'saveChildRef10',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef11',
+        children: [
+    {
+        id: 'saveChildRef12',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef13',
+        children: [
+    {
+        id: 'saveChildRef14',
         children: []
     }
     ]
     }
     ]
     }
-    ,
+    ,'pages/search/index': 
     {
-        id: 'saveChildRef20',
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
         children: []
+    }
+    ]
     }
     ,
     {
-        id: 'saveChildRef21',
+        id: 'saveChildRef3',
+        children: [
+    {
+        id: 'saveChildRef4',
         children: []
+    }
+    ]
     }
     ,
     {
-        id: 'saveChildRef22',
+        id: 'saveChildRef5',
+        children: [
+    {
+        id: 'saveChildRef6',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,'pages/slider/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef3',
+        children: [
+    {
+        id: 'saveChildRef4',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef5',
+        children: [
+    {
+        id: 'saveChildRef6',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef7',
+        children: [
+    {
+        id: 'saveChildRef8',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef9',
+        children: [
+    {
+        id: 'saveChildRef10',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef11',
+        children: [
+    {
+        id: 'saveChildRef12',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,'pages/stepper/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef3',
+        children: [
+    {
+        id: 'saveChildRef4',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef5',
+        children: [
+    {
+        id: 'saveChildRef6',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef7',
+        children: [
+    {
+        id: 'saveChildRef8',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef9',
         children: []
     }
     ]
@@ -2685,102 +2350,12 @@ module.exports = {
         id: 'saveChildRef3',
         children: []
     }
-    ,
-    {
-        id: 'saveChildRef4',
-        children: []
-    }
     ]
-    }
-    ,
-    {
-        id: 'saveChildRef5',
-        children: [
-    {
-        id: 'saveChildRef6',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef7',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef8',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef9',
-        children: [
-    {
-        id: 'saveChildRef10',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef11',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef12',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef13',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef14',
-        children: [
-    {
-        id: 'saveChildRef15',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef16',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef17',
-        children: []
-    }
-    ]
-    }
-    ]
-    }
-    ,'pages/sticky/index': 
-    {
-        id: 'saveChildRef0',
-        children: [
-    {
-        id: 'saveChildRef1',
-        children: [
-    {
-        id: 'saveChildRef2',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef3',
-        children: []
     }
     ,
     {
         id: 'saveChildRef4',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef5',
         children: []
@@ -2789,7 +2364,7 @@ module.exports = {
     }
     ]
     }
-    ,'pages/swipeout/index': 
+    ,'pages/submit-bar/index': 
     {
         id: 'saveChildRef0',
         children: [
@@ -2828,74 +2403,69 @@ module.exports = {
         children: [
     {
         id: 'saveChildRef8',
+        children: [
+    {
+        id: 'saveChildRef9',
         children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef10',
+        children: []
+    }
+    ]
+    }
+    ,'pages/swipe-cell/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: [
+    {
+        id: 'saveChildRef3',
+        children: [
+    {
+        id: 'saveChildRef4',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef5',
+        children: [
+    {
+        id: 'saveChildRef6',
+        children: [
+    {
+        id: 'saveChildRef7',
+        children: [
+    {
+        id: 'saveChildRef8',
+        children: []
+    }
+    ]
+    }
+    ]
     }
     ]
     }
     ,
     {
         id: 'saveChildRef9',
-        children: [
-    {
-        id: 'saveChildRef10',
         children: []
-    }
-    ,
-    {
-        id: 'saveChildRef11',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef12',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef13',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef14',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef15',
-        children: [
-    {
-        id: 'saveChildRef16',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef17',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef18',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef19',
-        children: []
-    }
-    ]
-    }
-    ,
-    {
-        id: 'saveChildRef20',
-        children: [
-    {
-        id: 'saveChildRef21',
-        children: []
-    }
-    ]
     }
     ]
     }
@@ -2908,10 +2478,82 @@ module.exports = {
         children: [
     {
         id: 'saveChildRef2',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef3',
+        children: [
+    {
+        id: 'saveChildRef4',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef5',
+        children: [
+    {
+        id: 'saveChildRef6',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef7',
+        children: [
+    {
+        id: 'saveChildRef8',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef9',
+        children: [
+    {
+        id: 'saveChildRef10',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef11',
+        children: [
+    {
+        id: 'saveChildRef12',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef13',
+        children: []
+    }
+    ]
+    }
+    ,'pages/switch-cell/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
         children: [
     {
         id: 'saveChildRef3',
         children: []
+    }
+    ]
     }
     ]
     }
@@ -2921,22 +2563,72 @@ module.exports = {
         children: [
     {
         id: 'saveChildRef5',
+        children: [
+    {
+        id: 'saveChildRef6',
         children: []
+    }
+    ]
     }
     ]
     }
     ,
     {
-        id: 'saveChildRef6',
+        id: 'saveChildRef7',
         children: [
+    {
+        id: 'saveChildRef8',
+        children: [
+    {
+        id: 'saveChildRef9',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,'pages/tab/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: [
+    {
+        id: 'saveChildRef3',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef4',
+        children: [
+    {
+        id: 'saveChildRef5',
+        children: [
+    {
+        id: 'saveChildRef6',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
     {
         id: 'saveChildRef7',
         children: [
     {
         id: 'saveChildRef8',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef9',
         children: []
@@ -2951,6 +2643,89 @@ module.exports = {
         children: [
     {
         id: 'saveChildRef11',
+        children: [
+    {
+        id: 'saveChildRef12',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef13',
+        children: [
+    {
+        id: 'saveChildRef14',
+        children: [
+    {
+        id: 'saveChildRef15',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef16',
+        children: [
+    {
+        id: 'saveChildRef17',
+        children: [
+    {
+        id: 'saveChildRef18',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef19',
+        children: [
+    {
+        id: 'saveChildRef20',
+        children: [
+    {
+        id: 'saveChildRef21',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef22',
+        children: [
+    {
+        id: 'saveChildRef23',
+        children: [
+    {
+        id: 'saveChildRef24',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef25',
+        children: [
+    {
+        id: 'saveChildRef26',
+        children: [
+    {
+        id: 'saveChildRef27',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef28',
         children: []
     }
     ]
@@ -2959,15 +2734,13 @@ module.exports = {
     }
     ]
     }
-    ,'pages/tab-bar/index': 
+    ,'pages/tabbar/index': 
     {
         id: 'saveChildRef0',
         children: [
     {
         id: 'saveChildRef1',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef2',
         children: [
@@ -2992,12 +2765,12 @@ module.exports = {
     }
     ]
     }
+    ]
+    }
     ,
     {
         id: 'saveChildRef7',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef8',
         children: [
@@ -3024,15 +2797,45 @@ module.exports = {
     }
     ]
     }
-    ,'pages/tabs/index': 
+    ,
+    {
+        id: 'saveChildRef13',
+        children: [
+    {
+        id: 'saveChildRef14',
+        children: [
+    {
+        id: 'saveChildRef15',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef16',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef17',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef18',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,'pages/tabbar1/index': 
     {
         id: 'saveChildRef0',
         children: [
     {
         id: 'saveChildRef1',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef2',
         children: [
@@ -3052,15 +2855,77 @@ module.exports = {
     }
     ]
     }
+    ]
+    }
     ,
     {
         id: 'saveChildRef6',
+        children: [
+    {
+        id: 'saveChildRef7',
+        children: [
+    {
+        id: 'saveChildRef8',
         children: []
     }
     ,
     {
-        id: 'saveChildRef7',
+        id: 'saveChildRef9',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef10',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef11',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ]
+    }
+    ,'pages/tag/index': 
+    {
+        id: 'saveChildRef0',
         children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef3',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef4',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef5',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef6',
+        children: [
+    {
+        id: 'saveChildRef7',
+        children: []
+    }
+    ,
     {
         id: 'saveChildRef8',
         children: []
@@ -3080,12 +2945,12 @@ module.exports = {
     ,
     {
         id: 'saveChildRef11',
+        children: [
+    {
+        id: 'saveChildRef12',
         children: []
     }
     ,
-    {
-        id: 'saveChildRef12',
-        children: [
     {
         id: 'saveChildRef13',
         children: []
@@ -3105,12 +2970,12 @@ module.exports = {
     ,
     {
         id: 'saveChildRef16',
+        children: [
+    {
+        id: 'saveChildRef17',
         children: []
     }
     ,
-    {
-        id: 'saveChildRef17',
-        children: [
     {
         id: 'saveChildRef18',
         children: []
@@ -3125,12 +2990,12 @@ module.exports = {
         id: 'saveChildRef20',
         children: []
     }
+    ]
+    }
     ,
     {
         id: 'saveChildRef21',
-        children: []
-    }
-    ,
+        children: [
     {
         id: 'saveChildRef22',
         children: []
@@ -3157,55 +3022,25 @@ module.exports = {
     }
     ]
     }
-    ]
-    }
-    ,'pages/tag/index': 
+    ,
     {
-        id: 'saveChildRef0',
+        id: 'saveChildRef27',
         children: [
     {
-        id: 'saveChildRef1',
+        id: 'saveChildRef28',
         children: []
     }
     ,
     {
-        id: 'saveChildRef2',
+        id: 'saveChildRef29',
         children: []
     }
     ,
     {
-        id: 'saveChildRef3',
+        id: 'saveChildRef30',
         children: []
     }
-    ,
-    {
-        id: 'saveChildRef4',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef5',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef6',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef7',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef8',
-        children: []
-    }
-    ,
-    {
-        id: 'saveChildRef9',
-        children: []
+    ]
     }
     ]
     }
@@ -3215,9 +3050,67 @@ module.exports = {
         children: [
     {
         id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
         children: []
     }
     ,
+    {
+        id: 'saveChildRef3',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef4',
+        children: [
+    {
+        id: 'saveChildRef5',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef6',
+        children: [
+    {
+        id: 'saveChildRef7',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef8',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef9',
+        children: [
+    {
+        id: 'saveChildRef10',
+        children: []
+    }
+    ]
+    }
+    ,
+    {
+        id: 'saveChildRef11',
+        children: []
+    }
+    ]
+    }
+    ,'pages/transition/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
     {
         id: 'saveChildRef2',
         children: []
@@ -3256,6 +3149,43 @@ module.exports = {
     {
         id: 'saveChildRef9',
         children: []
+    }
+    ,
+    {
+        id: 'saveChildRef10',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef11',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef12',
+        children: []
+    }
+    ,
+    {
+        id: 'saveChildRef13',
+        children: []
+    }
+    ]
+    }
+    ]
+    }
+    ,'pages/tree-select/index': 
+    {
+        id: 'saveChildRef0',
+        children: [
+    {
+        id: 'saveChildRef1',
+        children: [
+    {
+        id: 'saveChildRef2',
+        children: []
+    }
+    ]
     }
     ]
     }

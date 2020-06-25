@@ -1,9 +1,35 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/mgmt/mgmt",
+    "pages/me/me"
   ],
   "window": {
     "defaultTitle": "绩效管理"
+  },
+  "tabBar": {
+    "textColor": "#404040",
+    "selectedColor": "#108ee9",
+    "backgroundColor": "#FFFFFF",
+    "items": [
+       {
+        "pagePath": "pages/index/index",
+        "icon": "image/index.png",
+        "activeIcon": "image/index_HL.png",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/mgmt/mgmt",
+        "icon": "image/mgmt.png",
+        "activeIcon": "image/mgmt_HL.png",
+        "name": "管理"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "icon": "image/me.png",
+        "activeIcon": "image/me_HL.png",
+        "name": "我的"
+      }
+    ]
   }
-  
 }

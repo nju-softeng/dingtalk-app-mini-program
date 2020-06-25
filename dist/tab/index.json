@@ -1,1 +1,1 @@
-{ "component": true, "usingComponents": { "i-badge": "../badge/index" } }
+{ "component": true, "usingComponents": {} }

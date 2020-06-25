@@ -1,5 +1,5 @@
 <view class='row-index {{className}}' onChildRef='saveChildRef0'>
-  <view class='{{iClass}} i-row'>
+  <view class='{{customClass}} van-row' style='{{ style }}'>
     <slot>
     </slot>
   </view>

@@ -1,14 +1,8 @@
-<view unscope-style=" " class="{{iClass}} i-tabs-tab {{ scroll ? 'i-tabs-tab-scroll' : '' }} {{ current ? 'i-tabs-tab-current' : '' }}" onChildRef='saveChildRef0'>
-  <i-badge dot='{{ dot }}' count='{{ dot ? 0 : count }}' _parent_ref="{{isMounted}}" onChildRef='saveChildRef1'>
-    <view onTap='handleClickItem'>
-      <view class="i-tabs-tab-title {{ current ? 'i-tabs-tab-title-current' : '' }}" a:if='{{ current && currentColor }}' style='color: {{ currentColor }}'>
-        {{ title }}
-      </view>
-      <view class="i-tabs-tab-title {{ current ? 'i-tabs-tab-title-current' : '' }}" a:else >
-        {{ title }}
-      </view>
-    </view>
-  </i-badge>
-  <view class='i-tabs-tab-bar' a:if='{{ current }}' style='background: {{ currentColor }}'>
+<view class='tab-index {{className}}' onChildRef='saveChildRef0'>
+  <import-sjs from='../wxs/utils.sjs' name='utils'>
+  </import-sjs>
+  <view a:if='{{ animated || inited }}' class="{{customClass}} {{ utils.bem('tab__pane', { active, inactive: !active }) }}" style="{{ animated || active ? '' : 'display: none;' }} {{ width ? 'width:' + width + 'px;' : '' }}">
+    <slot>
+    </slot>
   </view>
 </view>

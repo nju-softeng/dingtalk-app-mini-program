@@ -1,4 +1,7 @@
-<view>
-  this is a blank page
-  <i-button type="primary" >这是一个按钮</i-button>
+<view style=" display:flex; justify-content: center; align-items: center; ">
+  <view >
+    小程序还在开发中建议使用PC端
+  </view>
+  
+
 </view>

@@ -1,4 +1,6 @@
-.row-index .i-row:after {
+@import "../common/index.acss";
+
+.row-index .van-row:after {
     content: "";
     display: table;
     clear: both;

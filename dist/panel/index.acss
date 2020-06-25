@@ -1,41 +1,13 @@
-.panel-index .i-panel {
-    position: relative;
-    overflow: hidden;
-}
+@import "../common/index.acss";
 
-.panel-index .i-panel-title {
-    font-size: 14px;
-    line-height: 1;
-    color: #1c2438;
-    padding: 20px 16px 10px;
-}
-
-.panel-index .i-panel-title-hide-top {
-    padding-top: 0;
-}
-
-.panel-index .i-panel-content {
-    position: relative;
+.panel-index .van-panel {
     background: #fff;
-    overflow: hidden;
 }
 
-.panel-index .i-panel-content::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200%;
-    height: 200%;
-    transform: scale(0.5);
-    transform-origin: 0 0;
-    pointer-events: none;
-    box-sizing: border-box;
-    border: 0 solid #e9eaec;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
+.panel-index .van-panel__header-value {
+    color: #f44;
 }
 
-.panel-index .i-panel-without-border::after {
-    border: 0 none;
+.panel-index .van-panel__footer {
+    padding: 10px 15px;
 }

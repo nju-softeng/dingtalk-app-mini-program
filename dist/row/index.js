@@ -1,18 +1,47 @@
-const _Component = require("../../__antmove/component/componentClass.js")(
-    "Component"
-);
 my.setStorageSync({
     key: "activeComponent",
     data: {
         is: "dist/row/index"
     }
 });
+import { VantComponent } from "../common/component";
+VantComponent({
+    relation: {
+        name: "col",
+        type: "descendant",
 
-_Component({
-    externalClasses: ["i-class"],
-    relations: {
-        "../col/index": {
-            type: "child"
+        linked(target) {
+            if (this.data.gutter) {
+                target.setGutter(this.data.gutter);
+            }
+        }
+    },
+    props: {
+        gutter: Number
+    },
+    watch: {
+        gutter: "setGutter"
+    },
+
+    ready() {
+        if (this.data.gutter) {
+            this.setGutter();
+        }
+    },
+
+    methods: {
+        setGutter() {
+            const { gutter } = this.data;
+            const margin = `-${Number(gutter) / 2}px`;
+            const style = gutter
+                ? `margin-right: ${margin}; margin-left: ${margin};`
+                : "";
+            this.set({
+                style
+            });
+            this.getRelationNodes("/dist/col/index").forEach(col => {
+                col.setGutter(this.data.gutter);
+            });
         }
     }
 });

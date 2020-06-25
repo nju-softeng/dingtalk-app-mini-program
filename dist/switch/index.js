@@ -1,54 +1,56 @@
-const _Component = require("../../__antmove/component/componentClass.js")(
-    "Component"
-);
 my.setStorageSync({
     key: "activeComponent",
     data: {
         is: "dist/switch/index"
     }
 });
-
-_Component({
-    externalClasses: ["i-class"],
-    properties: {
-        value: {
-            type: Boolean,
-            value: false
-        },
-        //large small default
+import { VantComponent } from "../common/component";
+VantComponent({
+    field: true,
+    classes: ["node-class"],
+    props: {
+        checked: null,
+        loading: Boolean,
+        disabled: Boolean,
+        activeColor: String,
+        inactiveColor: String,
         size: {
             type: String,
-            value: "default"
+            value: "30px"
         },
-        // is or not disable
-        disabled: {
-            type: Boolean,
+        activeValue: {
+            type: null,
+            value: true
+        },
+        inactiveValue: {
+            type: null,
             value: false
-        },
-        // hidden inut name
-        name: {
-            type: String,
-            value: ""
         }
     },
-    options: {
-        // 在组件定义时的选项中启用多slot支持
-        multipleSlots: true
+    watch: {
+        checked(value) {
+            this.set({
+                value
+            });
+        }
     },
 
     created() {
-        console.log(this.data, this.properties);
+        this.set({
+            value: this.data.checked
+        });
     },
 
     methods: {
-        toggle() {
-            console.log(this.data.value, this.properties.value);
-            if (this.data.disabled) return;
-            const data = this.data;
-            const value = data.value ? false : true;
-            this.triggerEvent("change", {
-                value: value
-            });
+        onClick() {
+            const { activeValue, inactiveValue } = this.data;
+
+            if (!this.data.disabled && !this.data.loading) {
+                const checked = this.data.checked === activeValue;
+                const value = checked ? inactiveValue : activeValue;
+                this.$emit("input", value);
+                this.$emit("change", value);
+            }
         }
     }
 });

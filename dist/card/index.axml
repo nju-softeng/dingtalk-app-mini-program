@@ -1,20 +1,46 @@
 <view class='card-index {{className}}' onChildRef='saveChildRef0'>
-  <view class="{{iClass}} i-card {{ full ? 'i-card-full' : '' }}">
-    <view class='{{iClass}} i-card-header'>
-      <view class='i-card-header-content'>
-        <image class='i-card-header-thumb' src='{{ thumb }}' mode='aspectFit' a:if='{{ thumb }}'>
+  <import-sjs from='../wxs/utils.sjs' name='utils'>
+  </import-sjs>
+  <view class='{{customClass}} van-card'>
+    <view class="{{ utils.bem('card__header', { center: centered }) }}">
+      <view class='van-card__thumb' onTap='onClickThumb'>
+        <image a:if='{{ thumb }}' src='{{ thumb }}' mode='{{ thumbMode }}' lazy-load='{{ lazyLoad }}' class='van-card__img {{thumbClass}}'>
         </image>
-        {{ title }}
+        <slot name='thumb'>
+        </slot>
+        <van-tag a:if='{{ tag }}' mark=" " type='danger' custom-class='van-card__tag' _parent_ref="{{isMounted}}" onChildRef='saveChildRef1'>
+          {{ tag }}
+        </van-tag>
       </view>
-      <view class='i-card-header-extra' a:if='{{ extra }}'>
-        {{ extra }}
+      <view class='van-card__content'>
+        <view a:if='{{ title }}' class='van-card__title {{titleClass}}'>
+          {{ title }}
+        </view>
+        <slot a:else  name='title'>
+        </slot>
+        <view a:if='{{ desc }}' class='van-card__desc {{descClass}}'>
+          {{ desc }}
+        </view>
+        <slot a:else  name='desc'>
+        </slot>
+        <slot name='tags'>
+        </slot>
+        <view class='van-card__bottom'>
+          <view a:if='{{ price || price === 0 }}' class='van-card__price {{priceClass}}'>
+            {{ currency }} {{ price }}
+          </view>
+          <view a:if='{{ originPrice || originPrice === 0 }}' class='van-card__origin-price {{originPriceClass}}'>
+            {{ currency }} {{ originPrice }}
+          </view>
+          <view a:if='{{ num }}' class='van-card__num {{numClass}}'>
+            x {{ num }}
+          </view>
+          <slot name='bottom'>
+          </slot>
+        </view>
       </view>
     </view>
-    <view class='{{iClass}} i-card-body'>
-      <slot name='content'>
-      </slot>
-    </view>
-    <view class='{{iClass}} i-card-footer'>
+    <view class='van-card__footer'>
       <slot name='footer'>
       </slot>
     </view>

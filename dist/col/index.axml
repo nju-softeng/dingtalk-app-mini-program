@@ -1,5 +1,7 @@
 <view class='col-index {{className}}' onChildRef='saveChildRef0'>
-  <view class="{{iClass}} i-col {{ span ? 'i-col-span-' + span : '' }} {{ offset ? 'i-col-offset-' + offset : '' }}">
+  <import-sjs from='../wxs/utils.sjs' name='utils'>
+  </import-sjs>
+  <view class="{{customClass}} {{ utils.bem('col', [span]) }} {{ offset ? 'van-col--offset-' + offset : '' }}" style='{{ style }}'>
     <slot>
     </slot>
   </view>

@@ -1,5 +1,8 @@
-<import-sjs onChildRef='saveChildRef0' from="./index.axmlparse.sjs" name='parse'>
-</import-sjs><view unscope-style=" " class="{{iClass}} i-tag {{ parse.getClass(color,type,checked,checkable) }} {{checkable ? '' : 'i-tag-disable'}}" onTap='tapTag'>
-  <slot>
-  </slot>
+<view class='tag-index {{className}}' style='display: inline-block;' onChildRef='saveChildRef0'>
+  <import-sjs from='../wxs/utils.sjs' name='utils'>
+  </import-sjs>
+  <view is-inline='true' class="{{customClass}} {{myClass}} {{ utils.bem('tag', [size, { mark, plain, round }]) }} {{ plain ? 'van-hairline--surround' : '' }}" style='{{ style }}'>
+    <slot>
+    </slot>
+  </view>
 </view>
