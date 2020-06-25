@@ -5,12 +5,11 @@ App({
   onLaunch(options) {
     dd.getAuthCode({
       success: function (res) {
-        console.info()
         post('/login', res).then(res => {
           // 将 token 缓存起来
           dd.setStorageSync({
             key: 'token',
-            data: res.headers['token']
+            data: res.data.token
           });
 
           getUserInfo().then(res => {

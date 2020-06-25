@@ -1,9 +1,16 @@
 <view class="container">
   <view class="usercard">
+    <view>
+      <open-avatar userId="{{userid}}" size="huge"></open-avatar>
+    </view>
+    
+    <view>
+      {{name}}
+    </view>
+
     
   </view>
   <view class="info">
-
   </view>
   <view class="list-container">
     <van-cell-group>
