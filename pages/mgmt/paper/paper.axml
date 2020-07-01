@@ -2,19 +2,21 @@
   <block a:for="{{list}}">
     <view class="paper-item">
 
-      <view style="display:flex">
-        <view  class="title" style="width:95%;">
-          <text >{{item.title}}</text>
+      <view class="paper-head">
+        <view class="title">
+          {{item.title}}
         </view>
-        <view style="padding:10rpx 20rpx; " onTap="">
+        <view style="padding:0 0rpx; " onTap="">
           <image style="height:32rpx; width:32rpx" src="/image/setting.png"/>
         </view>
       </view>
-      <view style=" padding-top:10rpx;">
-        <text style="margin-right:10rpx">
-          <van-tag plain>{{item.journal}}</van-tag>
+
+
+      <view class="paper-info">
+        <text >
+          <van-tag color="#7232dd" plain>{{item.journal}}</van-tag>
         </text>
-        <text style="font-size:12px;margin-right:10rpx;" a:for="{{item.authors}}" a:for-item="author">{{author.name}}</text>
+        <text class="paper-author" a:for="{{item.authors}}" a:for-item="author">{{author.name}}</text>
       </view>
     </view>
   </block>
