@@ -1,12 +1,11 @@
 Page({
-
   data: {
-    name: "",
-    userid: ""
+    name: '',
+    userid: ''
   },
   onLoad() {
     const user = dd.getStorageSync({ key: 'user' }).data;
-    console.log(user)
-    this.setData({ name: user.name, userid: user.userid })
-  },
+    console.log(user);
+    this.setData({ name: user.name, userid: user.userid });
+  }
 });

@@ -3,14 +3,21 @@
     <view>
       <open-avatar userId="{{userid}}" size="huge"></open-avatar>
     </view>
-    
     <view>
       {{name}}
     </view>
-
-    
   </view>
   <view class="info">
+    <van-panel title="标题" desc="描述信息" status="状态">
+      <view style="height:110rpx"></view>
+    </van-panel>
+    <van-panel title="标题" desc="描述信息" status="状态" use-footer-slot>
+      <view><view style="height:110rpx"></view></view>
+      <view slot="footer">
+        <van-button size="small">按钮</van-button>
+        <van-button size="small" type="danger">按钮</van-button>
+      </view>
+    </van-panel>
   </view>
   <view class="list-container">
     <van-cell-group>

@@ -1,0 +1,28 @@
+page {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 14rpx;
+}
+
+.container {
+    background-color: #f5f5f5;
+    padding: 14rpx;
+    height: 100%;
+}
+
+.title {
+    font-weight: 500;
+    width: 10vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.paper-item {
+    height: 150rpx;
+    margin-bottom: 14rpx;
+    background-color: white;
+    padding-top: 20rpx;
+    border-radius: 5px;
+}

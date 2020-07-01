@@ -1,3 +1,7 @@
 {
+  "defaultTitle": "小程序",
 
+  "backgroundColor": "#F5F5F9",
+  "pullRefresh": false,
+  "allowsBounceVertical": "YES"
 }

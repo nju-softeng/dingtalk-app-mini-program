@@ -1,0 +1,8 @@
+{
+  "pullRefresh": true,
+  "usingComponents": {
+    "van-panel": "/dist/panel/index",
+    "van-button": "/dist/button/index",
+    "van-tag": "/dist/tag/index"
+  }
+}

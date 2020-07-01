@@ -1,8 +1,11 @@
 {
   "pages": [
+    "pages/mgmt/paper/paper",
     "pages/index/index",
     "pages/mgmt/mgmt",
     "pages/me/me"
+    
+    
   ],
   "window": {
     "defaultTitle": "绩效管理"
@@ -12,7 +15,7 @@
     "selectedColor": "#108ee9",
     "backgroundColor": "#FFFFFF",
     "items": [
-       {
+      {
         "pagePath": "pages/index/index",
         "icon": "image/index.png",
         "activeIcon": "image/index_HL.png",
