@@ -1,11 +1,11 @@
 {
   "pages": [
-    "pages/mgmt/paper/paper",
-    "pages/index/index",
+    "pages/mgmt/paper/vote/vote",
     "pages/mgmt/mgmt",
-    "pages/me/me"
-    
-    
+    "pages/index/index",
+    "pages/me/me",
+    "pages/mgmt/paper/paper"
+
   ],
   "window": {
     "defaultTitle": "绩效管理"
@@ -14,8 +14,7 @@
     "textColor": "#404040",
     "selectedColor": "#108ee9",
     "backgroundColor": "#FFFFFF",
-    "items": [
-      {
+    "items": [{
         "pagePath": "pages/index/index",
         "icon": "image/index.png",
         "activeIcon": "image/index_HL.png",

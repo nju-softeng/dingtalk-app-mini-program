@@ -5,10 +5,8 @@ page {
     padding-top: 14rpx;
 }
 
-
-
 .title {
-    /* width: 90%; */
+    width: 100%;
     font-weight: 500;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -17,7 +15,10 @@ page {
 }
 
 .paper-item {
-    height: 240rpx;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 230rpx;
     margin-bottom: 14rpx;
     background-color: white;
     padding-top: 20rpx;
@@ -37,4 +38,37 @@ page {
     font-size: 12px;
     margin-left: 16rpx;
     color: #7232dd;
+}
+
+.paper-status {
+    padding: 20rpx 20rpx 0 20rpx;
+}
+
+.status-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40rpx;
+}
+
+.status-text {
+    font-size: 10px;
+    color: #8c8c8c;
+
+}
+
+
+
+.tag {
+    color: #fff;
+    font-size: 10px;
+    padding: 0.2em 0.5em;
+    line-height: normal;
+    border-radius: 0.2em;
+    display: inline-block;
+    background-color: rgb(7, 193, 96);
+}
+
+.tag:after {
+    border-radius: 0.4em;
 }

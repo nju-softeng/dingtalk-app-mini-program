@@ -1,7 +1,7 @@
+<import-sjs name="p1" from="./paper.sjs"/>
 <view>
   <block a:for="{{list}}">
     <view class="paper-item">
-
       <view class="paper-head">
         <view class="title">
           {{item.title}}
@@ -10,14 +10,24 @@
           <image style="height:32rpx; width:32rpx" src="/image/setting.png"/>
         </view>
       </view>
-
-
       <view class="paper-info">
         <text >
           <van-tag color="#7232dd" plain>{{item.journal}}</van-tag>
         </text>
         <text class="paper-author" a:for="{{item.authors}}" a:for-item="author">{{author.name}}</text>
       </view>
+      <view style="display:flex">
+        <view style="flex-grow:1">
+          <view class="paper-status">
+            <view class="status-text">投票结果: {{p1.getVoteStatus(item.v_status)}} </view>
+          </view>
+          <view class="paper-status">
+            <view class="status-text">录用结果: {{p1.getPaperResult(item.result)}}</view>
+          </view>
+        </view>
+        <view style="padding:36rpx 48rpx">
+          <van-button type="primary" size="mini">发起投票</van-button>
+        </view>
+      </view>
+      </block>
     </view>
-  </block>
-</view>
