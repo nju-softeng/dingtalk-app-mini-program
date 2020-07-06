@@ -1,10 +1,10 @@
 {
   "pages": [
-    "pages/mgmt/paper/vote/vote",
+    "pages/me/me",
     "pages/mgmt/mgmt",
     "pages/index/index",
-    "pages/me/me",
-    "pages/mgmt/paper/paper"
+    "pages/mgmt/paper/paper",
+    "pages/mgmt/paper/vote/vote"
 
   ],
   "window": {

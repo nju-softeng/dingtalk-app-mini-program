@@ -1,25 +1,38 @@
 <view class="container">
   <view class="usercard">
-    <view>
-      <open-avatar userId="{{userid}}" size="huge"></open-avatar>
+    <view class="avatar">
+      <open-avatar userId="{{userid}}" size="large"></open-avatar>
     </view>
-    <view>
-      {{name}}
+    <view class="info">
+      <view class="info-item"> {{name}}</view>
+      <view class="info-item"> 硕士生</view>
+    </view>
+    <view style="padding:40rpx">
+      <image src="/image/enter.png" style="height:32rpx; width:32rpx" />
     </view>
   </view>
-  <view class="info">
-    <van-panel title="标题" desc="描述信息" status="状态">
-      <view style="height:110rpx"></view>
-    </van-panel>
-    <van-panel title="标题" desc="描述信息" status="状态" use-footer-slot>
-      <view><view style="height:110rpx"></view></view>
-      <view slot="footer">
-        <van-button size="small">按钮</van-button>
-        <van-button size="small" type="danger">按钮</van-button>
-      </view>
-    </van-panel>
+  <view class="data">
+    <view class="board">
+    <view class="board-item">
+      <view>xxxx</view>
+      <view>????</view>
+    </view>
+
+    <view class="board-item">
+      <view>xxxx</view>
+      <view>????</view>
+    </view>
+
+    <view class="board-item">
+      <view>xxxx</view>
+      <view>????</view>
+    </view>
+
+    </view>
+    
   </view>
-  <view class="list-container">
+
+  <view class="list">
     <van-cell-group>
       <van-cell title="单元格" is-link />
       <van-cell title="单元格" is-link value="内容" />
