@@ -1,10 +1,13 @@
-<view style=" display:flex; flex-direction:column;justify-content: center; align-items: center; ">
-  <view style="margin-top:100rpx">
-    小程序还在开发中建议使用PC端
+<view>
+  <view class="head">
+    ???
   </view>
-  <view style="padding:10px">
-    目前已完成论文管理
+  <view class="panel padding solid">
+  
+  </view>
+
+  <view class="inform">
+  
   </view>
   
-
 </view>

@@ -1,0 +1,8 @@
+@import "/colorui/main.acss";
+@import "/colorui/icon.acss";
+
+
+page {
+    height: 100%;
+    width: 100%;
+}

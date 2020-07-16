@@ -1,0 +1,34 @@
+page {
+    background-color: white;
+}
+
+.head {
+    height: 300rpx;
+    background-color: #b7eb8f;
+    padding:20rpx;
+
+}
+
+.panel {
+    background-color: white;
+    height: 200rpx;
+    width: 92%;
+    margin-top: -140rpx;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20rpx;
+    border-radius: 20rpx;
+    padding: 20rpx;
+}
+
+.inform {
+    
+    height: 200rpx;
+    width: 92%;
+    border-radius: 20rpx;
+    background-color: #b7eb8f;
+    padding:20rpx;
+    margin-left: auto;
+    margin-right: auto;
+
+}

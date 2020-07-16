@@ -7,7 +7,7 @@ Page({
           icon: '/image/paper.png',
           title: '论文管理',
           entitle: 'Collapse',
-          page: '/pages/mgmt/paper/paper'
+          page: '/pages/manage/paper/paper'
         },
         {
           icon: '/image/apply.png',

@@ -1,11 +1,11 @@
 {
   "pages": [
-    "pages/me/me",
-    "pages/mgmt/mgmt",
     "pages/index/index",
-    "pages/mgmt/paper/paper",
-    "pages/mgmt/paper/vote/vote"
-
+    "pages/me/me",
+    "pages/manage/manage",
+    "pages/manage/paper/paper",
+    "pages/manage/paper/vote/vote",
+    "pages/perf/perf"
   ],
   "window": {
     "defaultTitle": "绩效管理"
@@ -16,20 +16,26 @@
     "backgroundColor": "#FFFFFF",
     "items": [{
         "pagePath": "pages/index/index",
-        "icon": "image/index.png",
-        "activeIcon": "image/index_HL.png",
+        "icon": "image/tab/index.png",
+        "activeIcon": "image/tab/index_HL.png",
         "name": "首页"
       },
       {
-        "pagePath": "pages/mgmt/mgmt",
-        "icon": "image/mgmt.png",
-        "activeIcon": "image/mgmt_HL.png",
+        "pagePath": "pages/manage/manage",
+        "icon": "image/tab/mgmt.png",
+        "activeIcon": "image/tab/mgmt_HL.png",
         "name": "管理"
       },
       {
+        "pagePath": "pages/perf/perf",
+        "icon": "image/tab/perf.png",
+        "activeIcon": "image/tab/perf_HL.png",
+        "name": "绩效"
+      },
+      {
         "pagePath": "pages/me/me",
-        "icon": "image/me.png",
-        "activeIcon": "image/me_HL.png",
+        "icon": "image/tab/me.png",
+        "activeIcon": "image/tab/me_HL.png",
         "name": "我的"
       }
     ]
