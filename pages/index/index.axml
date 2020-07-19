@@ -1,13 +1,44 @@
 <view>
   <view class="head">
-    ???
+    <view class="name">{{name}}</view>
+    <view class="value">DC ：{{ac}}</view>
+    <view class="value">AC ：{{dc}}</view>
   </view>
   <view class="panel padding solid">
+    <view class="panel-item">
+      <image class="icon" src="/image/paper.png" />
+      <view>快速申请</view>
+    </view>
+    <view class="panel-item">
+      <image class="icon" src="/image/paper.png" />
+      <view>论文记录</view>
+    </view>
+    <view class="panel-item">
+      <image class="icon" src="/image/paper.png" />
+      <view>绩效公示</view>
+    </view>
+    <view class="panel-item">
+      <image class="icon" src="/image/paper.png" />
+      <view>绩效公示</view>
+    </view>
+    <view>
+    </view>
+  </view>
+
+  <view>
+    <block a:for="{{messages}}">
+        <view class="message padding solid">
+      <view class="mesagge-title">{{item.title}}</view>
+      <view class="message-info">{{item.content}}</view>
+      <view class="message-time">{{item.createTime}}</view>
+    </view>
+    
+    </block>
+
+
+
   
   </view>
 
-  <view class="inform">
-  
-  </view>
-  
+
 </view>

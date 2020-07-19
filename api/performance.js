@@ -16,7 +16,7 @@ export function listUserAC(uid) {
 }
 
 // 获取实验室最近10条AC变动公告
-export function lastAC() {
+export function lastAc() {
     return get('/lastac')
 }
 
