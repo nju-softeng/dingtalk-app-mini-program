@@ -1,11 +1,16 @@
 {
   "pages": [
+    "pages/manage/perf/perf",
+    "pages/manage/manage",
     "pages/index/index",
     "pages/me/me",
-    "pages/manage/manage",
     "pages/manage/paper/paper",
     "pages/manage/paper/vote/vote",
-    "pages/perf/perf"
+    "pages/perf/perf",
+    "pages/manage/dev/dev",
+    
+    "pages/manage/other/other",
+    "pages/manage/perf/edit/edit"
   ],
   "window": {
     "defaultTitle": "绩效管理"
@@ -14,7 +19,8 @@
     "textColor": "#404040",
     "selectedColor": "#108ee9",
     "backgroundColor": "#FFFFFF",
-    "items": [{
+    "items": [
+      {
         "pagePath": "pages/index/index",
         "icon": "image/tab/index.png",
         "activeIcon": "image/tab/index_HL.png",

@@ -1,0 +1,36 @@
+.add-wrap {
+  position: fixed;
+  bottom: 80rpx;
+  right: 60rpx;
+  width: 90rpx;
+  height: 90rpx;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-wrap image {
+  width: 50rpx;
+}
+
+.card {
+  padding: 15rpx 30rpx;
+  margin: 15rpx 20rpx;
+  background-color: white;
+  border-radius: 0.1rem;
+}
+
+.title {
+  font-size: 0.3rem;
+  font-weight: 900;
+  padding: 20rpx 0rpx;
+}
+
+.text-content {
+  color: rgb(136, 136, 136);
+  line-height: 1.6;
+  font-size: 0.28rem;
+}

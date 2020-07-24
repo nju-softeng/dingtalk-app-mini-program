@@ -10,7 +10,6 @@ page {
 
 }
 
-
 .name {
     font-size: 14px;
     font-weight: bold;
@@ -35,11 +34,9 @@ page {
     width:160rpx;
     padding:20rpx;
     text-align: center;
-    border: 1rpx solid black;
     font-size: 10px;
     margin:2rpx;
 }
-
 
 .panel {
     background-color: white;
@@ -57,6 +54,7 @@ page {
     padding:20rpx;
     margin-left: 20rpx;
     margin-right: 20rpx;
+    margin-bottom: 10rpx;
 }
 
 .mesagge-title {

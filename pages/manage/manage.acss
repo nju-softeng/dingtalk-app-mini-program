@@ -1,4 +1,48 @@
-@import './grid/index.acss';
-.container {
-  padding-top: 48rpx;
+page {
+  background-color: white;
+}
+
+
+.head {
+  margin-top: 256rpx;
+  padding:20rpx;
+
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20rpx 10rpx 0;
+}
+
+.description {
+  font-size: 10px;
+  padding: 10rpx;
+}
+
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10rpx;
+
+}
+
+.board-item {
+  width: 47%;
+  height: 160rpx;
+  margin: 10rpx;
+  border-radius: 10rpx;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: white;
+}
+
+.icon {
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 30rpx;
+  margin-right: 20rpx;
 }

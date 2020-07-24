@@ -1,3 +1,7 @@
-<view>
-  New Page
-</view>
+<scroll-view scroll-x class="bg-white nav text-center">
+  <block a:for="{{[1, 2]}}">
+    <view class="cu-item" :class="item==TabCur?'text-blue cur':''" key="item" @tap="tabSelect" :data-id="item">
+        Tab-{{index}}
+    </view>
+  </block>
+</scroll-view>
