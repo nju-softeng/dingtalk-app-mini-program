@@ -1,0 +1,28 @@
+page {
+  background-color: #F8F8F8;
+    padding-top: 10rpx;
+}
+
+.container {
+  width: 100%;
+
+}
+
+.item {
+  width: 90%;
+  background-color: white;
+  
+  border-radius: 8rpx;
+  padding: 16rpx;
+  display: flex;
+  margin-top: 20rpx;
+  margin-left: auto; margin-right: auto;
+  
+  
+}
+
+.label {
+  line-height: 25px;
+  width: 70px;
+}
+

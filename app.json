@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/manage/perf/perf",
+    "pages/manage/perf/edit/edit",
     "pages/manage/manage",
+    "pages/manage/perf/perf",
     "pages/index/index",
     "pages/me/me",
     "pages/manage/paper/paper",
@@ -9,8 +10,7 @@
     "pages/perf/perf",
     "pages/manage/dev/dev",
     
-    "pages/manage/other/other",
-    "pages/manage/perf/edit/edit"
+    "pages/manage/other/other"
   ],
   "window": {
     "defaultTitle": "绩效管理"

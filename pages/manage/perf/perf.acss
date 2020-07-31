@@ -1,6 +1,6 @@
 .add-wrap {
   position: fixed;
-  bottom: 80rpx;
+  bottom: 180rpx;
   right: 60rpx;
   width: 90rpx;
   height: 90rpx;
@@ -21,16 +21,39 @@
   margin: 15rpx 20rpx;
   background-color: white;
   border-radius: 0.1rem;
+ transition:  background-color 0.5s, transform 0.5s;
+}
+
+.active-card {
+  background-color: pink;
+
 }
 
 .title {
-  font-size: 0.3rem;
-  font-weight: 900;
+  /* font-size: 0.3rem;
+  font-weight: 600; */
   padding: 20rpx 0rpx;
+  display: flex;
+}
+
+.date {
+  font-weight: 600;
+  flex-grow: 1;
+}
+
+.status {
+  flex-grow: 1;
+}
+
+.time {
+  font-size: 12px;
+  flex-grow: 1;
+  vertical-align: middle;
 }
 
 .text-content {
   color: rgb(136, 136, 136);
   line-height: 1.6;
   font-size: 0.28rem;
+  padding: 10rpx;
 }

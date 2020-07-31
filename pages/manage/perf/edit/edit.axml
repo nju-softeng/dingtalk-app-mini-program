@@ -1,3 +1,29 @@
-<view>
-  New Page
+<view class="container">
+  <view class="item">
+    <view class="label">
+      审核人 
+    </view>
+    <input placeholder="请选择审核人" />
+  </view>
+
+  <view class="item">
+    <view class="label">
+      自评D值
+    </view>
+    <input placeholder="请选择审核人" />
+  </view>
+
+  <view class="item">
+    <view class="label">
+      申请周
+    </view>
+    <input placeholder-style="9px;" placeholder="请选择审核人" />
+  </view>
+<!-- 
+  <view>
+    <view>
+      AC 申请
+    </view>
+  </view> -->
+ 
 </view>
