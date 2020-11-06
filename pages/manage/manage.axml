@@ -9,7 +9,7 @@
             <image class="icon" src="/image/apply_white.svg" />
          </view>
          <view>
-            周绩效管理
+            D值管理（开发中）
          </view>
       </view>
       <view class="board-item" style="background-color:#19eebe" onTap="tapTab" data-tab="paper">
@@ -17,7 +17,7 @@
             <image class="icon" src="/image/paper_white.svg" />
          </view>
          <view>
-            论文管理
+            论文管理（开发中）
          </view>
       </view>
       <view class="board-item" style="background-color:#f8ce17" onTap="tapTab" data-tab="dev">
@@ -25,7 +25,7 @@
             <image class="icon" src="/image/dev_white.svg" />
          </view>
          <view>
-            开发管理
+            开发管理（未开发）
          </view>
       </view>
       <view class="board-item" style="background-color:#4d98fb" onTap="tapTab" data-tab="other">
@@ -33,7 +33,7 @@
             <image class="icon" src="/image/other_white.svg" />
          </view>
          <view>
-            其他
+            其他（未开发）
          </view>
       </view>
    </view>
