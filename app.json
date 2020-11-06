@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/manage/perf/edit/edit",
+    
     "pages/manage/manage",
     "pages/manage/perf/perf",
     "pages/index/index",
@@ -9,7 +9,7 @@
     "pages/manage/paper/vote/vote",
     "pages/perf/perf",
     "pages/manage/dev/dev",
-    
+    "pages/manage/perf/edit/edit",
     "pages/manage/other/other"
   ],
   "window": {
