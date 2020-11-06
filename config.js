@@ -1,5 +1,5 @@
 export default {
 
-  baseURL: 'http://122.51.151.6:80/api',
+  baseURL: 'http://47.104.103.33:8089/api',
 
 }
