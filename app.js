@@ -4,9 +4,11 @@ import { getUserInfo } from './api/user'
 App({
   onLaunch(options) {
     dd.getAuthCode({
+      // 成功获取 res : {authCode: "xxxxxxxxxxxxxxxxxxxxxxxxxxx"}
       success: function (res) {
+        // 向后端发送请求进行登录
         post('/login', res).then(res => {
-          // 将 token 缓存起来
+          // 将返回的 token 缓存起来，用于后续接口请求
           dd.setStorageSync({
             key: 'token',
             data: res.data.token
@@ -26,8 +28,6 @@ App({
     });
   },
   onShow(options) {
-    // 从后台被 scheme 重新打开
-    // options.query == {number:1}
 
   },
 

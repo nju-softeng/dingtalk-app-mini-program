@@ -1,5 +1,5 @@
 export default {
 
-  baseURL: 'http://dev.ngrok.ngrokk.fun/api',
+  baseURL: 'http://122.51.151.6:80/api',
 
 }
