@@ -1,8 +1,12 @@
 # dingtalk-mini-program
 
 
-###### 2020.07.01
-完成论文管理流式分页
+为支持多环境切换，取消了git对配置文件的跟踪,克隆项目后需自行添加
+1. 根目录创建`config.js`文件
+2. 填写配置文件内容，例如：
+```
+export default {
+  baseURL: 'http://localhost:8080/api',
+}
+```
 
-###### 2020.06.24
-初始化项目，引入 `https://ant-move.github.io/iview-alipay-docs/#/docs/guide/start`
