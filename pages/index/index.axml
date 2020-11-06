@@ -1,8 +1,8 @@
 <view>
   <view class="head">
     <view class="name">{{name}}</view>
-    <view class="value">DC ：{{ac}}</view>
-    <view class="value">AC ：{{dc}}</view>
+    <view class="value">AC ：{{ac}}</view>
+    <view class="value">DC ：{{dc}}</view>
   </view>
   <view class="panel padding solid">
     <view class="panel-item" >
