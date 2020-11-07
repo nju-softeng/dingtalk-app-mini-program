@@ -26,7 +26,7 @@
     </view>
   </block>
   <!-- 底部固定 -->
-  <view class="add-wrap">
+  <view class="add-wrap" onTap="goEdit" >
     <image src="/image/edit.svg"></image>
   </view>
 </view>
